@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "nutrients": {
+    "vitamin_d": {
+      "displayName": "Vitamin D",
+      "aliases": ["Vitamin D3", "Cholecalciferol", "Vit D", "D3", "Vitamin D"],
+      "unit": "mcg",
+      "rda": { "male": 15, "female": 15, "senior": 20 },
+      "upperLimit": 100,
+      "healthKitIdentifier": "dietaryVitaminD"
+    },
+    "vitamin_c": {
+      "displayName": "Vitamin C",
+      "aliases": ["Vitamin C", "Ascorbic Acid"],
+      "unit": "mg",
+      "rda": { "male": 90, "female": 75, "senior": 90 },
+      "upperLimit": 2000,
+      "healthKitIdentifier": "dietaryVitaminC"
+    },
+    "vitamin_b12": {
+      "displayName": "Vitamin B12",
+      "aliases": ["B12", "Cobalamin", "Methylcobalamin", "Cyanocobalamin"],
+      "unit": "mcg",
+      "rda": { "male": 2.4, "female": 2.4, "senior": 2.4 },
+      "upperLimit": null,
+      "healthKitIdentifier": "dietaryVitaminB12"
+    },
+    "folate": {
+      "displayName": "Folate",
+      "aliases": ["Folate", "Folic Acid", "Methylfolate"],
+      "unit": "mcg",
+      "rda": { "male": 400, "female": 400, "senior": 400 },
+      "upperLimit": 1000,
+      "healthKitIdentifier": "dietaryFolate"
+    },
+    "iron": {
+      "displayName": "Iron",
+      "aliases": ["Iron", "Ferrous Bisglycinate", "Iron Bisglycinate"],
+      "unit": "mg",
+      "rda": { "male": 8, "female": 18, "senior": 8 },
+      "upperLimit": 45,
+      "healthKitIdentifier": "dietaryIron"
+    },
+    "magnesium": {
+      "displayName": "Magnesium",
+      "aliases": ["Magnesium", "Magnesium Glycinate", "Magnesium Citrate", "Magnesium Oxide"],
+      "unit": "mg",
+      "rda": { "male": 420, "female": 320, "senior": 420 },
+      "upperLimit": 350,
+      "healthKitIdentifier": "dietaryMagnesium"
+    },
+    "zinc": {
+      "displayName": "Zinc",
+      "aliases": ["Zinc", "Zinc Picolinate", "Zinc Citrate"],
+      "unit": "mg",
+      "rda": { "male": 11, "female": 8, "senior": 11 },
+      "upperLimit": 40,
+      "healthKitIdentifier": "dietaryZinc"
+    },
+    "epa": {
+      "displayName": "EPA",
+      "aliases": ["EPA", "Eicosapentaenoic Acid"],
+      "unit": "mg",
+      "rda": { "male": 250, "female": 250, "senior": 250 },
+      "upperLimit": null,
+      "healthKitIdentifier": null
+    },
+    "dha": {
+      "displayName": "DHA",
+      "aliases": ["DHA", "Docosahexaenoic Acid"],
+      "unit": "mg",
+      "rda": { "male": 250, "female": 250, "senior": 250 },
+      "upperLimit": null,
+      "healthKitIdentifier": null
+    },
+    "creatine": {
+      "displayName": "Creatine",
+      "aliases": ["Creatine", "Creatine Monohydrate"],
+      "unit": "g",
+      "rda": null,
+      "upperLimit": null,
+      "healthKitIdentifier": null
+    },
+    "ashwagandha": {
+      "displayName": "Ashwagandha",
+      "aliases": ["Ashwagandha", "KSM-66", "Withania Somnifera"],
+      "unit": "mg",
+      "rda": null,
+      "upperLimit": null,
+      "healthKitIdentifier": null
+    },
+    "probiotic_cfu": {
+      "displayName": "Probiotic CFU",
+      "aliases": ["CFU", "Colony Forming Units"],
+      "unit": "B CFU",
+      "rda": null,
+      "upperLimit": null,
+      "healthKitIdentifier": null
+    }
+  }
+}
