@@ -1,7 +1,7 @@
 import Foundation
 
 enum SupplementForm: String, Codable, CaseIterable {
-    case tablet, capsule, softgel, liquid, powder, gummy
+    case tablet, capsule, softgel, liquid, powder, gummy, lozenge, other
 }
 
 enum IntakeStatus: String, Codable {

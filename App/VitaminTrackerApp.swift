@@ -39,6 +39,15 @@ struct VitaminTrackerApp: App {
     var body: some Scene {
         WindowGroup {
             RootGate()
+                .task(priority: .utility) {
+                    // Warm up the bundled catalog + in-memory index in the
+                    // background. By the time the user reaches the search
+                    // sheet this is done; if they're faster than the I/O,
+                    // `CatalogSearcher.prepareIndex` awaits the same task.
+                    await BundledCatalogLoader.shared.load()
+                    let products = await BundledCatalogLoader.shared.products
+                    await LocalCatalogIndex.shared.build(from: products)
+                }
         }
         .modelContainer(container)
     }

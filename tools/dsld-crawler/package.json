@@ -1,0 +1,20 @@
+{
+  "name": "dsld-crawler",
+  "version": "1.0.0",
+  "description": "Crawl the NIH DSLD database and produce a bundled supplement catalog for the Vitamin Tracker iOS app.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "crawl": "tsx src/index.ts",
+    "build-catalog": "tsx src/index.ts --full"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "p-limit": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "tsx": "^4.7.0",
+    "@types/node": "^20.0.0"
+  }
+}
